@@ -5,9 +5,9 @@
 
 import cv2
 
-img=cv2.imread("C:\\Users\\user\\Downloads\\Taylor1.jpg",1)   # 1 is for coloured image.
+img=cv2.imread("Taylor1.jpg",1)   # 1 is for coloured image.
 
-img_1=cv2.imread("C:\\Users\\user\\Downloads\\Taylor1.jpg",0) # 0 is for converting the image into gray.
+img_1=cv2.imread("Taylor1.jpg",0) # 0 is for converting the image into gray.
 
 resized_image=cv2.resize(img,(400,400))  # For resizing the image
 cv2.imshow("Taylor Swift",resized_image)
